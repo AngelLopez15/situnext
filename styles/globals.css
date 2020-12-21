@@ -6,4 +6,30 @@
   html{
     font-family: 'Montserrat', sans-serif;
   }
+  .borde-dorado::after
+  {
+    content:""; 
+    display:block; 
+    position:absolute; 
+    width:15px; 
+    height:5px;                          
+    background:#bc955c;
+  }
+  .imagenes-consulta div{
+    display: block !important;
+  }
+  #menuId{
+    display: none;
+  }
+  .menu-flotante{
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    top: 0;
+    display: initial !important;
+  }
+  .ocultar{
+    display: none;
+  }
 }

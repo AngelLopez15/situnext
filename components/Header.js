@@ -4,13 +4,13 @@ import Image from 'next/image'
 export default function Header() {
   return (
     <>
-      <header className="grid grid-cols-12 gap-4 px-12 py-8 bg-verdef">
+      <header className="grid grid-cols-12 gap-4 px-12 py-2 bg-verdef">
         <div  className="col-span-6">
           <Image
             src='/logo_sedatu.png'
             alt='logo sedatu'
-            width={407}
-            height={93}
+            width={250}
+            height={55}
           />
         </div>
         <div className="col-span-6 flex justify-end items-center">
@@ -19,7 +19,7 @@ export default function Header() {
           <i className="fas fa-search text-white ml-4"></i>
         </div>
       </header>
-      <div className="col-span-12 bg-verdec p-8"></div>
+      <div className="col-span-12 bg-verdec p-6"></div>
     </>
   )
 }

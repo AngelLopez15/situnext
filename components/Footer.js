@@ -52,13 +52,13 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-      </footer>
-      <Image
+        <Image
         src='/pleca_verde_aguilas.png'
         alt='logo gobierno federal'
         width={1480}
         height={36}
       />
+      </footer>
     </>
   )
 }
