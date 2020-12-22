@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <HeaderSedatu/>
       <main>
-        <nav className="col-span-12 bg-navsitu relative select-none flex">
+        <nav className="col-span-12 bg-verdec relative select-none flex">
           <div class="flex flex-grow">
             <div class="lg:flex lg:items-stretch lg:justify-end ml-auto">
             <a href="#" class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark">¿Qué hacemos?</a>
@@ -33,9 +33,12 @@ export default function Home() {
         </nav>
 
         <section className="text-center">
-          <Image src="/imagen-sedatu.jpg" width="1820" height="655"/>
-          <div className="mt-10"></div>
-          <Image src="/imagen-sedatu-2.jpg" width="1200" height="800"/>
+          <div className="container mx-auto">
+            
+            <Image src="/imagen-sedatu.jpg" width="1200" height="600"/>
+            <div className="mt-10"></div>
+            <Image src="/imagen-sedatu-2.jpg" width="1200" height="800"/>
+          </div>
         </section>
       </main>
       <Footer />
