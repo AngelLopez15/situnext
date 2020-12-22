@@ -17,7 +17,7 @@ export default function Situ() {
       <Header />
       <main>
         <nav className="col-span-12 bg-navsitu relative select-none flex">
-          <div class="flex flex-no-shrink items-stretch h-12">
+          <div className="flex flex-no-shrink items-stretch h-12">
             <a href="/situ" class="bg-gray-500 flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark">Inicio</a>
             <a href="#" class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark">Planeacion municipal</a>
             <a href="#" class="flex-no-grow flex-no-shrink relative py-2 px-4 leading-normal text-white no-underline flex items-center hover:bg-grey-dark">Análisis geográfico</a>
@@ -45,8 +45,8 @@ export default function Situ() {
             El <b>SITU</b> se integrá por información e indicadores generados por los tres órdenes del gobierno, instancias de gobernanza metropolitana, así como otros registros
             e inventario del territorio derivados de actividades científicas, academicas o de cualquier índole en materia de ordenamiento territorial y desarrollo urbano.
           </p>
-          <div className="grid pt-10">
-            <Image src='/iniciar_sesion.jpg' alt='login' width="500" height="200" />
+          <div className="flex justify-center mt-10">
+            <Image src='/iniciar_sesion.jpg' alt='login' width="900" height="200" />
           </div>
         </section>
       </main>

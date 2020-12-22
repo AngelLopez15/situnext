@@ -73,8 +73,8 @@ export default function InicioSesion() {
 
           </div>
 
-          <div className="grid pt-10">
-            <Image src='/iniciar_sesion.jpg' alt='login' width="500" height="200" />
+          <div className="flex justify-center mt-10" >
+            <Image src='/iniciar_sesion.jpg' alt='login' width="900" height="200" />
           </div>
 
         </section>
